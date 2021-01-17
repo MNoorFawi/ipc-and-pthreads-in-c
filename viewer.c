@@ -25,7 +25,7 @@ int main() {
   fclose(out);
   
   // performing the third command to show filtered data
-  char cmd[256];
+  char cmd[STRLEN];
   strcpy(cmd, CMD3);
   puts("\nCities with clear sky or clouds and degree <= 25:\n");
   system(cmd);
