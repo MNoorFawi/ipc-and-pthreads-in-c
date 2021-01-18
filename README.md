@@ -7,6 +7,8 @@ Interprocess communication through named pipes and shared memory along with para
 2) **worker.c**: it reads data from the named pipe, **parallelize** the api requests using **pthread**s and writes the results into the **shared memory object** for the viewer process
 3) **viewer.c**: it reads the results from the shared memory object, writes it into a file and filter it then view it.
 
+![](./ipc2.png)
+
 ### Compile & Run
 ```bash
 gcc reader.c -o read

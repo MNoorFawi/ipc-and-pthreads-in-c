@@ -26,7 +26,7 @@ int main(int argc, char * argv[]) {
   }
   fclose(input); // closing the file
   // opening the pipe to send the cities to worker process
-  // mkfifo(<pathname>, <permission>) 
+  // mkfifo(fifo_name, permission) 
   mkfifo(CITY_FIFO, 0666);
   // FIFO with write only 
   fd = open(CITY_FIFO, O_WRONLY);
