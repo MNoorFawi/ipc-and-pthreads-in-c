@@ -1,5 +1,5 @@
 # Interprocess Communication & Parallelism in C
-Iinterprocess communication through named pipes and shared memory along with parallelism through posix threads to get weather data from an API
+Interprocess communication through named pipes and shared memory along with parallelism through posix threads to get weather data from an API
 
 3 process will communicate with each other using different ways to view weather data obtained from https://openweathermap.org/api
 
